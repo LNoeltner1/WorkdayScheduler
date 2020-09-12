@@ -26,12 +26,57 @@
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <p id="currentDay" class="lead">^Current Day of Week^</p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
+      <div class="row" id="nineAM">
+        <div class="col-md-2">9 A.M</div>
+        <textarea class="col-md-8 hourBlock" id="hourNine"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourNine">Add Event</button>
+      </div>
+      <div class="row" id="tenAM">
+        <div class="col-md-2">10 A.M</div>
+        <textarea class="col-md-8 hourBlock" id="hourTen"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourTen">Add Event</button>
+      </div>
+      <div class="row" id="elevenAM">
+        <div class="col-md-2">11 A.M</div>
+        <textarea class="col-md-8 hourBlock" id="hourEleven"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourEleven">Add Event</button>
+      </div>
+      <div class="row" id="twelveAM">
+        <div class="col-md-2">12 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourTwelve"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourTwelve">Add Event</button>
+      </div>
+      <div class="row" id="onePM">
+        <div class="col-md-2">1 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourOne"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourOne">Add Event</button>
+      </div>
+      <div class="row" id="twoPM">
+        <div class="col-md-2">2 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourTwo"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourTwo">Add Event</button>
+      </div>
+      <div class="row" id="threePM">
+        <div class="col-md-2">3 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourThree"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourThree">Add Event</button>
+      </div>
+      <div class="row" id="fourPM">
+        <div class="col-md-2">4 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourFour"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourFour">Add Event</button>
+      </div>
+      <div class="row" id="fivePM">
+        <div class="col-md-2">5 P.M.</div>
+        <textarea class="col-md-8 hourBlock" id="hourFive"></textarea>
+        <button class="col-md-2 addBtn" id="addToHourFive">Add Event</button>
+      </div>
     </div>
-
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   </body>
